@@ -27,6 +27,8 @@ module.exports = {
           'http://10.10.1.243:3055/micro-template/v1/productor/update',
         MICRO_PRODUCTOR_PAGINATE:
           'http://10.10.1.243:3055/micro-template/v1/productor/paginate/findAll',
+        MICRO_PERSONA_FINDBY_CED:
+          'http://10.10.1.243:3055/micro_interoperabilidad/persona',
         ENV: 'desarrollo',
         ID_APP: 92,
       },
@@ -50,6 +52,8 @@ module.exports = {
           'http://10.10.1.105:3055/micro-template/v1/productor/update',
         MICRO_PRODUCTOR_PAGINATE:
           'http://10.10.1.105:3055/micro-template/v1/productor/paginate/findAll',
+        MICRO_PERSONA_FINDBY_CED:
+          'http://10.10.1.105:3055/micro_interoperabilidad/persona',
         ENV: 'pruebas',
         ID_APP: 92,
       },
@@ -74,6 +78,8 @@ module.exports = {
           'http://10.10.1.243:3055/micro-template/v1/productor/update',
         MICRO_PRODUCTOR_PAGINATE:
           'http://10.10.1.243:3055/micro-template/v1/productor/paginate/findAll',
+        MICRO_PERSONA_FINDBY_CED:
+          'http://10.10.1.243:3055/micro_interoperabilidad/persona',
         ENV: 'desarrollo', //produccion
         ID_APP: 92,
       },

@@ -2,10 +2,11 @@ import { Module } from '@nestjs/common';
 import { ConfigModule } from '@nestjs/config';
 import { APP_FILTER } from '@nestjs/core';
 import { JwtModule } from '@nestjs/jwt';
-import { HealthModule } from './system/health/health.module';
+import { InteroperabilidadModule } from './api/interoperabilidad/interoperabilidad.module';
 import { ProductorModule } from './api/productor/productor.module';
-import { JwtStrategy } from './utils/jwt.strategy';
+import { HealthModule } from './system/health/health.module';
 import { HttpExceptionFilter } from './utils/http-exception.filter';
+import { JwtStrategy } from './utils/jwt.strategy';
 
 @Module({
   imports: [
@@ -19,6 +20,7 @@ import { HttpExceptionFilter } from './utils/http-exception.filter';
     }),
     ProductorModule,
     HealthModule,
+    InteroperabilidadModule,
   ],
   controllers: [],
   providers: [
