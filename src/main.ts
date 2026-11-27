@@ -21,6 +21,11 @@ async function bootstrap() {
    * Producción/Dominio { cors: true }
    */
   const app = await NestFactory.create(AppModule, { cors: false });
+  app.enableCors({
+    origin: '*',
+    methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE', 'OPTIONS'],
+    allowedHeaders: ['Content-Type', 'Authorization'],
+  });
   app.useGlobalPipes(
     new ValidationPipe({
       whitelist: true,

@@ -10,6 +10,7 @@ import { CultivoDto } from '../dto/cultivo.dto';
 import { ExtensionDto } from '../dto/extension.dto';
 import { PecuariaDto } from '../dto/pecuario.dto';
 import { UbicacionDto } from '../dto/ubicacion.dto';
+import { Utils } from '../utils/utils';
 
 @Injectable()
 export class InteroperabilidadService {
@@ -186,7 +187,7 @@ export class InteroperabilidadService {
       .map((c) => ({
         nombre: c.cul_nombre,
         superficie: Number(c.cul_superficie) || 0,
-        unidad: c.cul_unidad,
+        unidad: Utils.getNombreUnidad(c.cul_unidad),
         asociado: c.cul_asociacion,
         forma: c.cul_forma,
         ferti_quimico: c.cul_ferti_quim,
@@ -201,7 +202,7 @@ export class InteroperabilidadService {
       .map((c) => ({
         nombre: c.cul_nombre,
         superficie: Number(c.cul_superficie) || 0,
-        unidad: c.cul_unidad,
+        unidad: Utils.getNombreUnidad(c.cul_unidad),
         fuente: c.cul_fuente,
       }));
 
