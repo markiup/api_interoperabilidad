@@ -29,6 +29,15 @@ module.exports = {
           'http://10.10.1.243:3055/micro-template/v1/productor/paginate/findAll',
         MICRO_PERSONA_FINDBY_CED:
           'http://10.10.1.243:3055/micro_interoperabilidad/persona',
+        MICRO_UBICACION_FINDBY_CED:
+          'http://10.10.1.243:3055/micro_interoperabilidad/ubicacion',
+        MICRO_PECUARIO_FINDBY_CED:
+          'http://10.10.1.243:3055/micro_interoperabilidad/pecuario',
+        MICRO_EXTENSION_FINDBY_CED:
+          'http://10.10.1.243:3055/micro_interoperabilidad/extension',
+        MICRO_CULTIVO_FINDBY_CED:
+          'http://10.10.1.243:3055/micro_interoperabilidad/cultivo',
+
         ENV: 'desarrollo',
         ID_APP: 92,
       },
@@ -54,6 +63,15 @@ module.exports = {
           'http://10.10.1.105:3055/micro-template/v1/productor/paginate/findAll',
         MICRO_PERSONA_FINDBY_CED:
           'http://10.10.1.105:3055/micro_interoperabilidad/persona',
+        MICRO_UBICACION_FINDBY_CED:
+          'http://10.10.1.105:3055/micro_interoperabilidad/ubicacion',
+        MICRO_PECUARIO_FINDBY_CED:
+          'http://10.10.1.105:3055/micro_interoperabilidad/pecuario',
+        MICRO_EXTENSION_FINDBY_CED:
+          'http://10.10.1.105:3055/micro_interoperabilidad/extension',
+        MICRO_CULTIVO_FINDBY_CED:
+          'http://10.10.1.105:3055/micro_interoperabilidad/cultivo',
+
         ENV: 'pruebas',
         ID_APP: 92,
       },
@@ -80,6 +98,14 @@ module.exports = {
           'http://10.10.1.243:3055/micro-template/v1/productor/paginate/findAll',
         MICRO_PERSONA_FINDBY_CED:
           'http://10.10.1.243:3055/micro_interoperabilidad/persona',
+        MICRO_UBICACION_FINDBY_CED:
+          'http://10.10.1.243:3055/micro_interoperabilidad/ubicacion',
+        MICRO_PECUARIO_FINDBY_CED:
+          'http://10.10.1.243:3055/micro_interoperabilidad/pecuario',
+        MICRO_EXTENSION_FINDBY_CED:
+          'http://10.10.1.243:3055/micro_interoperabilidad/extension',
+        MICRO_CULTIVO_FINDBY_CED:
+          'http://10.10.1.243:3055/micro_interoperabilidad/cultivo',
         ENV: 'desarrollo', //produccion
         ID_APP: 92,
       },
